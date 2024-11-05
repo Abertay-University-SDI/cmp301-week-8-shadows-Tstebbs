@@ -1,8 +1,8 @@
 # CMP301_Shadows
 Starter project for CMP301. Shadow mapping.
 
-Name:
+Name:Thomas Stebbings
 
-Number:
+Number:2201393
 
-Outline of project:
+Outline of project: Shadows Week 8
