@@ -17,6 +17,8 @@ public:
 	void init(HINSTANCE hinstance, HWND hwnd, int screenWidth, int screenHeight, Input* in, bool VSYNC, bool FULL_SCREEN);
 
 	bool frame();
+	float sphereX;
+	float LightX;
 
 protected:
 	bool render();
@@ -27,6 +29,7 @@ protected:
 private:
 	TextureShader* textureShader;
 	PlaneMesh* mesh;
+	SphereMesh* Sphere;
 
 	Light* light;
 	AModel* model;
